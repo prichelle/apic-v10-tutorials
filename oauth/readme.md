@@ -4,6 +4,8 @@ This section contains artifacts that can be used in the context of OAuth.
 
 ## Introspect
 
+File: **oauth-api-introspect-proxy.yaml**
+
 Sometimes the OAuth provider doesn't provide an introspect URL or doesn't provide all the token validation/revocation policies.
 In that case, using an API Connect API as proxy provides a lot flexibility because all the required security policies can be implemented in such API definition.
 
